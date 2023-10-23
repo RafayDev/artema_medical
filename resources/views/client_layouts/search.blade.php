@@ -213,7 +213,7 @@
                     <div class="col-12 col-md-9">
                         <div class="row">
                             <div class="col-md-6">
-                                <h2>{{$subcategories_by_id->sub_category_name}}</h2>
+                                <h2>Product Search</h2>
                             </div>
                         </div>
                         <br>
@@ -283,9 +283,6 @@
                                 </div>
                             </div>
                             @endforeach
-                            <div class="col-md-12 text-center">
-                                {{$products->links()}}
-                            </div>
                         </div>
             </section>
         </div>
