@@ -104,7 +104,7 @@
                         <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/')}}/about">Company</a>
+                        <a class="nav-link" href="{{url('/')}}/about">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
