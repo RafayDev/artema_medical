@@ -34,6 +34,13 @@ class ClientController extends Controller
         $data = compact('products', 'categories', 'subcategories','subcategories_by_id');
         return view('client_layouts.products')->with($data);
     }
+    public function about_us()
+    {
+        $categories = Category::all();
+        $subcategories = SubCategory::all();
+        $data = compact('categories', 'subcategories');
+        return view('client_layouts.about_us')->with($data);
+    }
     public function searchProduct(Request $request)
     {
         // print_r($request->all());

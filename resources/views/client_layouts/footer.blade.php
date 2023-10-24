@@ -2,7 +2,7 @@
       <img src="{{url('/')}}/images/grey-logo.png" class="img-fluid ">
         <ul class="list-inline">
                    <a href="{{url('/')}}"> <li class="list-inline-item">Home</li></a>
-                   <a href="{{url('/')}}/about"> <li class="list-inline-item">Company</li></a>
+                   <a href="{{url('/')}}/about"> <li class="list-inline-item">About Us</li></a>
                    <a href="{{url('/')}}/events"> <li class="list-inline-item">Events & Exhibition</li></a>
                    <a href="{{url('/')}}/compliances"> <li class="list-inline-item">Compliances</li></a>
                    <a href="{{url('/')}}/resources"> <li class="list-inline-item">Resources</li></a>

@@ -26,3 +26,4 @@ Route::post('/add-product', [App\Http\Controllers\ProductController::class, 'cre
 Route::get('/delete-product/{id}', [App\Http\Controllers\ProductController::class, 'delete'])->name('delete-product');
 Route::post('/update-product/{id}', [App\Http\Controllers\ProductController::class, 'update'])->name('update-product');
 Route::post('/search-product', [App\Http\Controllers\ClientController::class, 'searchProduct'])->name('search-product');
+Route::get('/about', [App\Http\Controllers\ClientController::class, 'about_us'])->name('about');
