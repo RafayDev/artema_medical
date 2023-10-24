@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('css/specificstyles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/testimonial.css')}}">
     <style type="text/css">
     .floaticon {
         position: fixed;
@@ -90,8 +91,8 @@
             <div class="button">
                 <a class="btn-open" href="#"></a>
             </div>
-            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid"
-                    width="450px"></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid" style="margin-left: 20px;"
+                    width="400px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -174,48 +175,39 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item  active">
-                    <img src="{{asset('images/13.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/13.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/3.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/3.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/6.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/6.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/general-instuments.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/general-instuments.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/10.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/10.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/7.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/7.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/12.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/12.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/9.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/9.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
 
                 <div class="carousel-item ">
-                    <img src="{{asset('images/11.jpg')}}" class="img-fluid d-block w-100"
-                        width="100%">
+                    <img src="{{asset('images/11.jpg')}}" class="img-fluid d-block w-100" width="100%">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -228,81 +220,135 @@
             </a>
         </div>
         <!-- header end  -->
+        <!-- Our Partners Section  -->
+        <section class="text-center mt-5">
+            <h1 class="alegreya">OUR PARTNERS</h1>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <img src="{{asset('images/partners/4.png')}}" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="{{asset('images/partners/CSU.png')}}" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="{{asset('images/partners/JBM-Website-Logo.jpg')}}" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="{{asset('images/partners/kls.png')}}" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="{{asset('images/partners/Synergy-Logo.png')}}" class="img-fluid">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End of our Partner Section -->
         <!-- Aboutus section start -->
-        <section class="text-center about">
+        <section class="text-center about mt-5">
             <div class="container">
                 <h1 class="alegreya">INSTRUMENTS FOR SURGICAL PROCEDURES</h1>
-                <p class="alegreya">Artema Medical (Pvt). Ltd., was established in 1970 as Artema Corporation. This
-                    institution was conceived under the leadership of the late Agha Kamal Haider. His goal was to
-                    provide the health care market with specialized, hand crafted surgical instruments designed to meet
-                    the highest standard in quality.</p>
-                <a href="{{url('/')}}/about"><button style="padding: 2px 6px;"
-                        class="btn btn-outline-danger"><i class="fa fa-plus"></i></button></a>
+                <p class="alegreya">Artema Medical is on a mission to make the world a better place in the surgical tool
+                    industry as well as being an eco-friendly organization. Our dedicated team members are always
+                    working under policies that bring greenery to the Earth. It is the sole responsibility of the people
+                    to take care of the environment and stay away from such activities that are not beneficial to it. We
+                    are playing our part in the best possible manner.</p>
+                <a href="{{url('/')}}/about"><button style="padding: 2px 6px;" class="btn btn-outline-danger"><i
+                            class="fa fa-plus"></i></button></a>
             </div>
 
         </section>
         <!-- Aboutus section end -->
+        <!-- Client Section -->
 
-        <!-- Events & Exhibition starts -->
-        <section class="news">
+        <!-- End of Client Section -->
+        <!-- Testimonal section start -->
+        <section class="testimonial text-center mb-5">
             <div class="container">
-                <h2 class="alegreya" style="text-align: center;">EVENTS & EXHIBITIONS</h2>
-                <div id="mixedSlider">
-                    <div class="MS-content">
 
-                    </div>
-                    <!-- <div class="MS-controls">
-                        <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-                        <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                    </div> -->
+                <div class="heading white-heading">
+                    Testimonial
                 </div>
+                <div id="testimonial4"
+                    class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                    data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
 
-
-
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <img src="{{asset('images/testimonial_1.png')}}" class="img-circle img-responsive" />
+                                <p> "Artema immediately comes to mind for ophthalmic instruments. Their products have
+                                    always met our expectations, and we will keep choosing them in the future."</p>
+                                <h4>Bryan DelaCerna</h4>
+                                <h5>NVision Laser Eye Centers</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="{{asset('images/testimonial_2.png')}}" class="img-circle img-responsive" />
+                                <p>"Whenever precision and reliability are paramount in medical instruments, my first
+                                    thought is Artema. Their dedication to quality and innovation has never let us down.
+                                    We trust in their products wholeheartedly, and they've become an integral partner in
+                                    delivering outstanding patient care."</p>
+                                <h4>Cindy Edrington</h4>
+                                <h5>ASC Director. Thibodaux Laser & Surgery Center</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="{{asset('images/testimonial_3.png')}}" class="img-circle img-responsive" />
+                                <p>"We’ve been working with Artema Medical for quite a few years now and in all of that
+                                    time we’ve never ordered an instrument that has let us or our surgeons down. We’ve
+                                    been able to complete open shoulder trays and laminectomy trays with less expensive
+                                    but high quality products and our doctors don’t notice a difference." </p>
+                                <h4>Jennifer Chura</h4>
+                                <h5>RCST, CIS, M.S. Midtown Surgery Center, New York</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
             </div>
         </section>
-        <!-- Events & Exhibition ends -->
+        <!-- Testimonal section end -->
         <!-- Parrallex Wrapper starts -->
-        <section class="parallax-section d-none d-lg-block">
+        <section class="parallax-section d-none d-lg-block mt-5">
             <a href="{{url('/')}}/category/1?General-Instrumentation">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/5.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/5.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/10?Needle-Holders">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/15.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/15.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/5?Dental-Instruments">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/16.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/16.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/4?Scissors">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/20.png')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/20.png')}}"></div>
             </a>
             <a href="{{url('/')}}/category/6?ENT-Instruments">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/2.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/2.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/2?Orthopedic-Instruments">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/4.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/4.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/7?Cardiovascular">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/1.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/1.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/8?Gynaecology">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/17.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/17.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/3?Podiarty-Instruments">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/18.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/18.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/9?Plastic-Surgery">
-                <div class="parallax-window" data-parallax="scroll"
-                    data-image-src="{{asset('images/19.jpg')}}"></div>
+                <div class="parallax-window" data-parallax="scroll" data-image-src="{{asset('images/19.jpg')}}"></div>
             </a>
             <a href="{{url('/')}}/category/11?Surgical-Sets">
                 <div class="parallax-window" data-parallax="scroll"
@@ -374,6 +420,28 @@
         $('#mixedSlider').multislider({
             duration: 750,
             interval: 3000
+        });
+        $(document).ready(function() {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
         });
         </script>
 </body>
