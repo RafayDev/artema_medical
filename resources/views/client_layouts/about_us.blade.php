@@ -138,6 +138,8 @@
                                 href="{{url('/')}}/category/{{$category->id}}?{{$category->category_slug}}">
                                 <i class="fa fa-caret-right"></i> {{$category->category_name}}</a>
                             @endforeach
+                            <a class="dropdown-item" href="{{url('/')}}/respiratory-therapy">
+                                <i class="fa fa-caret-right"></i> Respiratory Therapy</a>
                         </div>
                     </li>
                     <!-- <li class="nav-item">

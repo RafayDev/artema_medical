@@ -91,8 +91,8 @@
             <div class="button">
                 <a class="btn-open" href="#"></a>
             </div>
-            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid" style="margin-left: 20px;"
-                    width="400px"></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid"
+                    style="margin-left: 20px;" width="400px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -117,6 +117,8 @@
                                 href="{{url('/')}}/category/{{$category->id}}?{{$category->category_slug}}">
                                 <i class="fa fa-caret-right"></i> {{$category->category_name}}</a>
                             @endforeach
+                            <a class="dropdown-item" href="{{url('/')}}/respiratory-therapy">
+                                <i class="fa fa-caret-right"></i> Respiratory Therapy</a>
                         </div>
                     </li>
                     <!-- <li class="nav-item">
