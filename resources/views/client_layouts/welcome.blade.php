@@ -396,11 +396,11 @@
         </section>
         <!-- newsletter starts -->
         <section class="newsletter space-up ">
-            <div class="container text-center" style="max-width: 500px">
+            <!-- <div class="container text-center" style="max-width: 500px">
                 <h4><img src="{{asset('images/newletter.png')}}">
                     <stong>Artema Medical</stong> <small>NEWS LETTER</small>
                 </h4>
-            </div>
+            </div> -->
         </section>
         @include('client_layouts.footer')
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

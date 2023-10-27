@@ -53,6 +53,8 @@ class ProductController extends Controller
     public function delete($id)
     {
         $product=Product::find($id);
+        //delete file from folder
+        $image_path = public_path().'/product_images/'.$product->image;
         $product->delete();
         $productSizes=ProductSize::where('product_id',$id)->get();
         foreach($productSizes as $productSize){
