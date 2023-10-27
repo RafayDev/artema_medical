@@ -26,6 +26,13 @@
                 </div>
             </div>
             </a>
+            <a href="{{route('products')}}" style="text-decoration:none; margin-top:10px;">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <h4>Repositry Therapy</h4>
+                </div>
+            </div>
+            </a>
         </div>
     </div>
     <div class="row mt-5">

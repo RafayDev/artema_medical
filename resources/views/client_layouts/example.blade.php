@@ -117,7 +117,7 @@
                             @endforeach
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="{{url('/')}}/events">Events & Exhibition</a>
                     </li>
                     <li class="nav-item">
@@ -129,7 +129,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('/')}}/compliances">Compliances</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('/')}}/contact">Contact Us</a>
                     </li>
