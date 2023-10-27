@@ -81,7 +81,7 @@
 </head>
 
 <body>
-    <a href="https://wa.me/923318999475" class="floaticon" target="_blank">
+    <a href="https://wa.me/12104687779" class="floaticon" target="_blank">
         <img src="{{asset('images/whts.png')}}" class="img-fluid float-right">
     </a>
 
