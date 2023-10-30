@@ -76,4 +76,11 @@ class ClientController extends Controller
         $data = compact('categories', 'subcategories');
         return view('client_layouts.contact_us')->with($data);
     }
+    public function respiratory_therapy()
+    {
+        $categories = Category::all();
+        $subcategories = SubCategory::all();
+        $data = compact('categories', 'subcategories');
+        return view('client_layouts.respiratory_therapy')->with($data);
+    }
 }

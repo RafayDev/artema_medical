@@ -80,7 +80,7 @@
 </head>
 
 <body>
-    <a href="https://wa.me/12104687779" class="floaticon" target="_blank">
+    <a href="https://wa.me/923318999475" class="floaticon" target="_blank">
         <img src="{{asset('images/whts.png')}}" class="img-fluid float-right">
     </a>
 
@@ -90,8 +90,8 @@
             <div class="button">
                 <a class="btn-open" href="#"></a>
             </div>
-            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid" style="margin-left: 20px;"
-                    width="400px"></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid"
+                    style="margin-left: 20px;" width="400px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -171,75 +171,24 @@
         </div>
     </header>
     <div style="margin-top:110px">
-        <div class="container-fluid">
+        <div class="row space-up">
+            <div class="col-md-3 sidemenu">
+                <h2 class="cat-head space-up">Categories</h2>
+                <ul class="list-group">
+                    @foreach($categories as $category)
+                    <li class="list-group-item alegreya">
+                        <a style="color: black"
+                            href="{{url('/')}}/category/{{$category->id}}?{{$category->category_slug}}"> <i
+                                class="fa fa-caret-right"></i> {{$category->category_name}}</a>
+                    </li>
+                    @endforeach
+                    <li class="list-group-item alegreya">
+                        <a style="color: black" href="{{url('/')}}/respiratory-therapy"> <i
+                                class="fa fa-caret-right"></i>Respiratory Therapy</a>
+                    </li>
 
-            <!-- Subcategory section start -->
-            <section class=" subcategory ">
-                <!-- <img src="assets/images/Sub-Categories.png" class="img-fluid"> -->
-                <div
-                    style="display: flex;flex-direction: column;background-image: url('{{asset('images/enner-banner.jpg')}}');height: 500px;background-size: cover;background-repeat: no-repeat;background-position: center;">
-                    <div class="search-box">
-                        <div class="container-fluid">
-
-                            <div class="row search-prod text-center ">
-                                <h1 class="col-md-12 alegreya  carrot-clr">Product Search</h1>
-                                <div class="col-md-12">
-                                    <form action="#" method="post" class="d-flex flex-row justify-content-center">
-                                        <input type="text" class="form-control search-control" required=""
-                                            name="search_value" placeholder="Search">
-                                        @csrf <button style="border: none;background: none;" type="submit"
-                                            class="mb-2"><img src="https://www.technimen.com/images/search-ico.png"
-                                                class="img-fluid"></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- sidemenu -->
-                <div class="row space-up">
-                    <div class="col-md-3 sidemenu">
-                        <h2 class="cat-head space-up">Categories</h2>
-                        <ul class="list-group">
-                            @foreach($categories as $category)
-                            <li class="list-group-item alegreya">
-                                <a style="color: black"
-                                    href="{{url('/')}}/category/{{$category->id}}?{{$category->category_slug}}"> <i
-                                        class="fa fa-caret-right"></i> {{$category->category_name}}</a>
-                            </li>
-                            @endforeach
-                            <li class="list-group-item alegreya">
-                                <a style="color: black"
-                                    href="{{url('/')}}/respiratory-therapy"> <i
-                                        class="fa fa-caret-right"></i>Respiratory Therapy</a>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                    <div class="col-md-9">
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="alegreya">{{$category_by_id->category_name}}</h1>
-                            </div>
-                            @foreach($category_by_id->subcategories as $subcategory)
-                            <div class="col-md-4">
-                                <a style="color: black"
-                                    href="{{url('/')}}/products/{{$subcategory->id}}?{{$subcategory->sub_category_slug}}">
-                                    <h4 class="subcat-box">{{$subcategory->sub_category_name}}</h4>
-                                </a>
-                            </div>
-                            @endforeach
-
-                        </div>
-                    </div>
-                </div>
-                <!-- end sidemenu -->
-
-
-            </section>
-            <!-- Subcategory section end -->
+                </ul>
+            </div>
         </div>
     </div>
     @include('client_layouts.footer')

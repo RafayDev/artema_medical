@@ -28,3 +28,4 @@ Route::post('/update-product/{id}', [App\Http\Controllers\ProductController::cla
 Route::post('/search-product', [App\Http\Controllers\ClientController::class, 'searchProduct'])->name('search-product');
 Route::get('/about', [App\Http\Controllers\ClientController::class, 'about_us'])->name('about');
 Route::get('/contact', [App\Http\Controllers\ClientController::class, 'contact_us'])->name('contact');
+Route::get('/respiratory-therapy', [App\Http\Controllers\ClientController::class, 'respiratory_therapy'])->name('respiratory-therapy');
