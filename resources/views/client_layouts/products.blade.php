@@ -90,8 +90,8 @@
             <div class="button">
                 <a class="btn-open" href="#"></a>
             </div>
-            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid" style="margin-left: 20px;"
-                    width="400px"></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" class="img-fluid"
+                    style="margin-left: 20px;" width="400px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -184,7 +184,8 @@
                             <div class="row search-prod text-center ">
                                 <h1 class="col-md-12 alegreya  carrot-clr">Product Search</h1>
                                 <div class="col-md-12">
-                                    <form action="/search-product" method="post" class="d-flex flex-row justify-content-center">
+                                    <form action="/search-product" method="post"
+                                        class="d-flex flex-row justify-content-center">
                                         <input type="text" class="form-control search-control" required=""
                                             name="search_value" placeholder="Search">
                                         @csrf <button style="border: none;background: none;" type="submit"
@@ -208,6 +209,10 @@
                                         class="fa fa-caret-right"></i> {{$category->category_name}}</a>
                             </li>
                             @endforeach
+                            <li class="list-group-item alegreya">
+                                <a style="color: black" href="{{url('/')}}/respiratory-therapy"> <i
+                                        class="fa fa-caret-right"></i>Respiratory Therapy</a>
+                            </li>
 
                         </ul>
                     </div>
