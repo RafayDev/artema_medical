@@ -20,7 +20,7 @@ Route::get('/products/{id}', [App\Http\Controllers\ClientController::class, 'pro
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('products');
+Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('productss');
 Route::post('/getSubCategory', [App\Http\Controllers\ProductController::class, 'getSubCategory'])->name('getSubCategory');
 Route::post('/add-product', [App\Http\Controllers\ProductController::class, 'create'])->name('add-product');
 Route::get('/delete-product/{id}', [App\Http\Controllers\ProductController::class, 'delete'])->name('delete-product');
