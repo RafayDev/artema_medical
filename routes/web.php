@@ -15,12 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\ClientController::class, 'index'])->name('welcome');
 Route::get('/category/{id}', [App\Http\Controllers\ClientController::class, 'category'])->name('category');
-Route::get('/products/{id}', [App\Http\Controllers\ClientController::class, 'products'])->name('products');
+Route::get('/products/{id}', [App\Http\Controllers\ClientController::class, 'products'])->name('productss');
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('productss');
+Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('products');
 Route::post('/getSubCategory', [App\Http\Controllers\ProductController::class, 'getSubCategory'])->name('getSubCategory');
 Route::post('/add-product', [App\Http\Controllers\ProductController::class, 'create'])->name('add-product');
 Route::get('/delete-product/{id}', [App\Http\Controllers\ProductController::class, 'delete'])->name('delete-product');
