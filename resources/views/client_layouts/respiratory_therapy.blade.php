@@ -327,6 +327,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/vyntus_body/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Vyntus™ BODY Plethysmograph</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#vyntus_body_modal"
+                                        style="margin-top: 95px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -994,6 +1006,88 @@
                                         O<sub>2</sub>&nbsp;cell exchange</li>
                                     <li data-gc-list-depth="1" data-gc-list-style="bullet">Mobile version for PFT
                                         testing outside the lab</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="vyntus_body_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Vyntus™ body Pulmonary Function System</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_vyntus_body" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_body/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_body/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_body/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_vyntus_body"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_vyntus_body" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Vyntus™ ONE Pulmonary Function System</h3>
+                                <p>People come in all shapes and sizes, so we designed Vyntus™ BODY to accommodate most
+                                    patients without increasing the cabin footprint. Many enhancements were incorporated
+                                    to make Vyntus™ BODY accessible and user-friendly for both patients and technicians.
+
+                                    Vyntus™ BODY employs much of the same breakthrough technology found in the Vyntus™
+                                    ONE, but with a redesigned breathing circuit and our new Ultrasonic Sensor
+                                    Technology. In addition, Vyntus™ BODY is enhanced with additional innovation such as
+                                    digital pressure compensation, which helps to reduce environmental influences and
+                                    improves measurement accuracy
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <ul>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">1110L Cabin Volume&nbsp;
+                                        </li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Reinforced bench
+                                            supporting up to 551 lbs</li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Less than 3" step-in
+                                            clearance for easier patient transfer</li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Flexible telescoping arm
+                                            that extends 25" outside the cabin when needed</li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Prominent grab bar to
+                                            assist in safe patient entry and exit</li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Three frequency
+                                            calibration adapting to different breathing rates</li>
+                                        <li data-gc-list-depth="1" data-gc-list-style="bullet">Factory calibrated
+                                            Ultrasonic Flow Sensor Technology</li>
+                                    </ul>
                                 </ul>
                                 </p>
                             </div>
