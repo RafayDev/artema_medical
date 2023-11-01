@@ -220,85 +220,99 @@
                 </ul>
             </div>
             <div class="col-md-9">
-                <div class="row mt-3">
-                    <div class="col-md-2">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/bellavista_1000e/1.webp')}}"
-                                class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">bellavista™ 1000e Ventilator</h5>
-                                <p class="card-text">Ventilation support for your patient's respiratory needs.</p>
-                                <a href="#" data-toggle="modal" data-target="#bellavista_1000e_modal"
-                                    class="learn-more-btn">Learn More</a>
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/bellavista_1000e/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">bellavista™ 1000e Ventilator</h5>
+                                    <p class="card-text">Ventilation support for your patient's respiratory needs.</p>
+                                    <a href="#" data-toggle="modal" data-target="#bellavista_1000e_modal"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/bellavista_1000/1.webp')}}"
-                                class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">bellavista™ 1000 Ventilator</h5>
-                                <p class="card-text">Ventilation support for your patient's respiratory needs.</p>
-                                <a href="#" data-toggle="modal" data-target="#bellavista_1000_modal"
-                                    class="learn-more-btn">Learn More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/bellavista_1000/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">bellavista™ 1000 Ventilator</h5>
+                                    <p class="card-text">Ventilation support for your patient's respiratory needs.</p>
+                                    <a href="#" data-toggle="modal" data-target="#bellavista_1000_modal"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/bellavista_neo/1.webp')}}"
-                                class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">bellavista™ neo Ventilators</h5>
-                                <p class="card-text"></p>
-                                <a href="#" data-toggle="modal" data-target="#bellavista_neo_modal"
-                                    style="margin-top: 100px;" class="learn-more-btn">Learn More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/bellavista_neo/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">bellavista™ neo Ventilators</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#bellavista_neo_modal"
+                                        style="margin-top: 80px;" class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/ltv2/1.webp')}}" class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">LTV2™ Series Ventilators</h5>
-                                <p class="card-text"></p>
-                                <a href="#" data-toggle="modal" data-target="#ltv2_modal" style="margin-top: 100px;"
-                                    class="learn-more-btn">Learn More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/ltv2/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">LTV2™ Series Ventilators</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#ltv2_modal" style="margin-top: 80px;"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/avea/1.webp')}}" class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">AVEA™ CVS Ventilation System</h5>
-                                <p class="card-text">A comprehensive neonatal through adult ventilation system.</p>
-                                <a href="#" data-toggle="modal" data-target="#avea_modal" class="learn-more-btn">Learn
-                                    More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/avea/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">AVEA™ CVS Ventilation System</h5>
+                                    <p class="card-text">A comprehensive neonatal through adult ventilation.</p>
+                                    <a href="#" data-toggle="modal" data-target="#avea_modal"
+                                        class="learn-more-btn">Learn
+                                        More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2 mt-4">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/bellavista/1.webp')}}" class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">bellavista ™ 1000 select Ventilator</h5>
-                                <p class="card-text"></p>
-                                <a href="#" data-toggle="modal" data-target="#bellavista_modal"
-                                    style="margin-top: 100px;" class="learn-more-btn">Learn More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/bellavista/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">bellavista ™ 1000 select Ventilator</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#bellavista_modal"
+                                        style="margin-top: 80px;" class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2 mt-4">
-                        <div class="card">
-                            <img src="{{asset('images/respiratory_images/revel/1.webp')}}" class="card-img-top">
-                            <div class="card-body" style="background-color:#671B1D;color: white;">
-                                <h5 class="card-title">ReVel™ Ventilator</h5>
-                                <p class="card-text"></p>
-                                <a href="#" data-toggle="modal" data-target="#revel_modal" style="margin-top: 120px;"
-                                    class="learn-more-btn">Learn More</a>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/revel/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">ReVel™ Ventilator</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#revel_modal"
+                                        style="margin-top: 100px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/3100a/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">3100A/B HFOV Ventilators</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#a_modal" style="margin-top: 75px;"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -816,6 +830,75 @@
                                     <li>Suitable for service in home-care, hospital and transport environments&nbsp;
                                     </li>
                                     <li>4-hour internal hot-swappable battery</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="a_modal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">3100A/B HFOV Ventilators</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_a" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/3100a/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/3100a/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/3100a/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_a"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button" data-target="#carousel_a"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>3100A/B HFOV Ventilators</h3>
+                                <p>The 3100 series High Frequency Oscillatory Ventilators (HFOV) are proven for
+                                    intervening in treating respiratory failure in neonates and ARDS in pediatric and
+                                    adult patients. Using lung protective tools, you can apply continuous distending
+                                    pressure and superimpose minimal pressure and volume swings to inflate the lung, and
+                                    avoid respiratory failure. As shown in numerous clinical and peer-reviewed studies,
+                                    the 3100 series ventilators help enhance patient care for critically injured
+                                    patients. </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li>Lower hospital cost&nbsp;</li>
+                                    <li>As little as two days on HFOV before extubation</li>
+                                    <li>Decreased duration of oxygen therapy&nbsp;</li>
+                                    <li>Decreased nCPAP duration&nbsp;</li>
+                                    <li>Decreased chronic lung disease (CLD)</li>
+                                    <li>Discharge up to 24 days earlier</li>
                                 </ul>
                                 </p>
                             </div>
