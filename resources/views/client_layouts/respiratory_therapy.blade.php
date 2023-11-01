@@ -315,6 +315,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/vyntus_one/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Vyntus™ ONE Pulmonary Function System</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#vyntus_one_modal"
+                                        style="margin-top: 75px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -899,6 +911,89 @@
                                     <li>Decreased nCPAP duration&nbsp;</li>
                                     <li>Decreased chronic lung disease (CLD)</li>
                                     <li>Discharge up to 24 days earlier</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="vyntus_one_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Vyntus™ ONE Pulmonary Function System</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_vyntus_one" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_one/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_one/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_one/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_vyntus_one"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_vyntus_one" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Vyntus™ ONE Pulmonary Function System</h3>
+                                <p>Designed to be hassle-free for clinicians and friendly for patients, Vytnus™ ONE is
+                                    incredibly capable with a modular design for an impressive array of features. Tests
+                                    are more accurate, less intrusive and less stressful for patients.
+
+                                    Vyntus™ ONE offers complete pulmonary function testing such as spirometry, DLCO,
+                                    nitrogen washout lung volumes, LCI and MIP/MEP. It can be expanded to do
+                                    cardiopulmonary stress testing, creating a single device at a fraction of the
+                                    footprint.
+
+                                    Vyntus™ ONE can be configured to accommodate any medical center's needs. Visit our
+                                    Knowledge Base and learn how the latest SentrySuite software helps you achieve the
+                                    best possible results according to the latest ATS/ERS 2019 Spirometry guidelines.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Modular design with 3
+                                        configuration options</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Validated, simple hygiene and
+                                        maintenance routines</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Factory Calibrated,
+                                        Ultrasonic Flow Sensor with Double Shot Technology</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Meets latest ATS/ERS DLCO
+                                        guidelines</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Innovative eDemand valve
+                                        requiring less patient effort</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Tool free
+                                        O<sub>2</sub>&nbsp;cell exchange</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Mobile version for PFT
+                                        testing outside the lab</li>
                                 </ul>
                                 </p>
                             </div>
