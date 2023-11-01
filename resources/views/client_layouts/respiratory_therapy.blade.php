@@ -339,6 +339,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/vyntus_cpx/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Vyntus™ CPX Metabolic Cart</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#vyntus_cpx_modal"
+                                        style="margin-top: 95px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1088,6 +1100,91 @@
                                         <li data-gc-list-depth="1" data-gc-list-style="bullet">Factory calibrated
                                             Ultrasonic Flow Sensor Technology</li>
                                     </ul>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="vyntus_cpx_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Vyntus™ CPX Metabolic Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_vyntus_cpx" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_cpx/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_cpx/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_cpx/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_vyntus_cpx"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_vyntus_cpx" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Vyntus™ CPX Metabolic Cart</h3>
+                                <p>Performing CPET tests can be complex and difficult, especially after peripheral
+                                    devices are added. Vyntus™ CPX stands out from all other metabolic carts, as many
+                                    new features now make CPET testing easy to learn and perform.
+
+                                    Vyntus™ CPX has taken the hassle out of CPET testing by integrating hardware and
+                                    software peripherals, utilizing pre-exercise hardware and software checks,
+                                    automating flow sensor calibration, and incorporating software that actually helps
+                                    guide users through performing the best test possible. Test completed? The Vyaire
+                                    software platform can also assist with data cleanup and assessment.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Gas analyzer technology
+                                        improvements – 75ms response time and a unique&nbsp;“Tool-free“
+                                        O<sub>2</sub><span>&nbsp;fuel cell change </span></li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Proven Digital Volume
+                                        Transducer (DVT) flow sensor technology provides accurate and reliable
+                                        flow/volume measurements in the complete range of low-to-high flow</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Interfaces seamlessly with
+                                        numerous ECGs for comprehensive CPET testing on a single curved wide screen,
+                                        which we call <em>Big Cinema</em>.</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Automated volume calibration
+                                        ensures consistency, saves time and hassle</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">On-board pulse oximetry with
+                                        finger, ear-clip and forehead sensors</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Powered by SentrySuite™ with
+                                        cues and guidance during measurement and post-test workflow to help standardize
+                                        evaluations and reduce time to results</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Smart tools automate pre-test
+                                        setup and provide timed cues &amp; guidance for events required during the test
+                                        (e.g.: blood pressure, RPE signaling, exercise flow volume loops, etc.)</li>
                                 </ul>
                                 </p>
                             </div>
