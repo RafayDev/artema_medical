@@ -408,6 +408,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/ltv/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">LTV™ Series Ventilators</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#ltv_modal" style="margin-top: 115px;"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1643,6 +1654,84 @@
             </div>
         </div>
     </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="ltv_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">LTV™ Series Ventilators</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_ltv" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/ltv/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/ltv/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/ltv/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_ltv"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button" data-target="#carousel_ltv"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>LTV™ Series Ventilatorsr</h3>
+                                <p>The LTV is specifically designed for the dynamic environment of portable ventilation,
+                                    whether in-home care, intra-hospital transport or emergency care settings. The
+                                    lightweight, slim profile design with hot-swappable batteries provides the necessary
+                                    tools to meet the demands of patients on the move that weigh at least 5 kg.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li>Easy transition and operation allows patients to transfer from the hospital to
+                                        home</li>
+                                    <li>Turbine technology eliminates the need for a high-pressure air source</li>
+                                    <li>Oxygen resource management tool reduces oxygen consumption</li>
+                                    <li>Enhanced patient comfort and care with flow trigger and internal PEEP
+                                        compensation</li>
+                                    <li>Optimizable trial settings</li>
+                                    <li>Versatility with highly customizable settings to support patient success</li>
+                                    <li>Single solution for any patient weighing 5 kg or more</li>
+                                    <li>Quick patient ventilation</li>
+                                    <li>Supports invasive and non-invasive applications</li>
+                                    <li>Portable Impact resistant construction</li>
+                                    <li>Easy to read displays</li>
+                                    <li>Comprehensive monitoring</li>
+                                    <li>Compact, deployable design supports invasive and non-invasive applications&nbsp;
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
     @include('client_layouts.footer')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
