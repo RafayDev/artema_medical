@@ -419,6 +419,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/cardio/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">CardioSoft ECG</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#cardio_modal"
+                                        style="margin-top: 115px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1722,6 +1733,86 @@
                                     <li>Comprehensive monitoring</li>
                                     <li>Compact, deployable design supports invasive and non-invasive applications&nbsp;
                                     </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="cardio_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">CardioSoft ECG</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_cardio" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/cardio/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/cardio/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/cardio/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_cardio"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_cardio" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>CardioSoft ECG</h3>
+                                <p>CardioSoft is a CAM-USB hardware, PC-based 12-Lead ECG system that is the perfect
+                                    extension of your metabolic cart, providing you with clinical excellence for
+                                    complete cardiopulmonary exercise testing (CPET).
+
+                                    The CardioSoft ECG system is a comprehensive system for precise acquisition,
+                                    evaluation and reporting of your ECG data, but it is also surprisingly easy to use.
+                                    Everything is on the main testing screen and quickly accessible with a simple mouse
+                                    click.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Exchangeable lead wires</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Provides continuous storage
+                                        of up to 12 leads for safety and color-coded arrhythmias for easy viewing</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Monitors all 12 leads and
+                                        displays the single lead with largest ST segment change from baseline directly
+                                        on the screen for easy viewing</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Relevant data, including
+                                        patient demographics, is shared between CardioSoft and our Vyntus<sup>™</sup><b>
+                                        </b>CPX to reduce the chance of errors by duplicate entries</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">The cubic spline and finite
+                                        residual filtering of CardioSoft provides baseline correction and artifact
+                                        resolution, with ST measurements</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">The comprehensive interface
+                                        encompasses a wide range of treadmills and cycle ergometers sold by
+                                        Vyaire<sup>™</sup></li>
                                 </ul>
                                 </p>
                             </div>
