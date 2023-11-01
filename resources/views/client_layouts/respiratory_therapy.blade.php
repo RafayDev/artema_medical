@@ -374,6 +374,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/vyntus_sipro/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Vyntus™ SPIRO PC Spirometer</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#vyntus_sipro_modal"
+                                        style="margin-top: 90px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1373,6 +1385,92 @@
                                         a more complete patient test</li>
                                     <li data-gc-list-depth="1" data-gc-list-style="bullet">Vyntus™ WALK can be run as a
                                         standalone device or the data can move in and out of SentrySuite™ software</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="vyntus_sipro_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Vyntus™ SPIRO PC Spirometer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_vyntus_sipro" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_sipro/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_sipro/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_sipro/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_vyntus_sipro"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_vyntus_sipro" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Vyntus™ SPIRO PC Spirometer</h3>
+                                <p>The Vyntus™ SPIRO was born out of our obsession to perfect a spirometer that is
+                                    easy-to-use and has the flexibility to provide accurate results for the general user
+                                    and sophisticated labs. Vyntus™ SPIRO can be used as either a stationary or portable
+                                    spirometer.
+
+                                    Thousands of PFT labs depend every day on our proven, accurate and reliable
+                                    pneumotach. Endorsed as the measurement device of choice by hundreds of
+                                    publications, its excellent dynamic range effectively tests a broad population from
+                                    small children to professional athletes.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">The pneumotach handle is
+                                        lightweight and has a long cable to the computer, so patients and technicians
+                                        can sit and/or stand comfortably</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">From a single screen, patient
+                                        data can be entered, flow sensor calibrated, tests performed, QA checked, and
+                                        patient data trended via&nbsp;<em>SentrySuite</em>™<em>
+                                            360</em>&nbsp;<em>Guidance</em> provides real-time instructions on
+                                        performing the test (quiet breathing, complete inspiration, blast out, complete
+                                        inspiration) and includes both text and visual graphics</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet"><em>Quality
+                                            Feedback</em>&nbsp;is shown directly on the screen for each maneuver based
+                                        on quality check types according to ATS/ERS, NIOSH, and Office Spirometry
+                                        standards</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Trending of current data to
+                                        past visits is as easy as pressing a button!</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Software is designed for both
+                                        pre/post testing as well as bronchial provocation testing</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">The pneumatach has been
+                                        designed to work with the validated MicroGard™&nbsp;II bacterial/viral filter
+                                        and is easy to disassemble and clean</li>
                                 </ul>
                                 </p>
                             </div>
