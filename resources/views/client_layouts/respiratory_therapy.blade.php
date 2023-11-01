@@ -386,6 +386,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/micro/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">MicroGard™ II PFT Filter</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#micro_modal" style="margin-top: 90px;"
+                                        class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1473,6 +1484,80 @@
                                         and is easy to disassemble and clean</li>
                                 </ul>
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="micro_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">MicroGard™ II PFT Filter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_micro" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/micro/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/micro/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/micro/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_micro"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_micro" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>MicroGard™ II PFT Filter</h3>
+                                <p>MicroGard™ II filters provide an easy way to help ensure protection from
+                                    cross-contamination which keeps both the patient and operator safe without
+                                    compromising on system performance.
+
+                                    MicroGard™ II filters are used with Vyntus™, Vmax MasterScreen, and Micro Medical
+                                    PFT instrumentation.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>MicroGard™ II B has an integrated oval-shaped mouthpiece suitable for adult and
+                                    pediatric use. The IIB kit includes an oval filter with nose clip. MicroGard™ II C
+                                    has a round-shaped connector for use with special lung function mouthpieces, ideal
+                                    for gas dilution and body plethysmographic measurements. The II C kit includes a
+                                    round filter with nose clip and rubber mouthpiece.</p>
+                                <ul>
+                                    <li>99.999% viral and bacterial efficiency against cross contamination (Nelson Test
+                                        Report 10003754)</li>
+                                    <li>Low resistance to airflow</li>
+                                    <li>Minimal dead space (55mL)</li>
+                                    <li>Filter housing and filter fleece tested for biocompatibility</li>
+                                    <li>Three filter configuration versions, two package sizes</li>
+                                    <li>Validated for compliance with the complete Vyaire Respiratory Diagnostics
+                                        product line</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
