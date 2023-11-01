@@ -362,6 +362,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/vyntus_walk/1.webp')}}"
+                                    class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Vyntus™ WALK Mobile Exercise Testing</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#vyntus_walk_modal"
+                                        style="margin-top: 90px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1276,6 +1288,91 @@
                                         <p>Compliant with U.S. National Patient Safety Goal (NPSG 06.01.01) for alarm
                                             safety<sup>5</sup></p>
                                     </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="vyntus_walk_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Vyntus™ WALK Mobile Exercise Testing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_vyntus_walk" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_walk/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_walk/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/vyntus_walk/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_vyntus_walk"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_vyntus_walk" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Vyntus™ WALK Mobile Exercise Testing</h3>
+                                <p>Vyntus™ WALK allows patients to perform an untethered six-minute walk test (6MWT) by
+                                    wearing wireless sensors that communicate data to a technician-held tablet PC.
+
+                                    The system is both patient- and technician-friendly and because we know a single
+                                    sensor does not fit all clinical needs, comes with an array of easy-to-wear sensors.
+                                    Because standardizing the complete testing process is critical to meaningful data
+                                    for patient trending, Vyaire has integrated the complete ATS testing standards in
+                                    the workflow-driven tablet software application.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Standardize testing to the
+                                        recommended American Thoracic Society (ATS) 6MWT protocol, because consistent
+                                        testing yields consistent data for comparison</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">The patient wears a wireless
+                                        Bluetooth™ wrist pulse oximeter that allows them to freely move through the
+                                        course, untethered</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Multiple oximetry sensors
+                                        (finger, ear clip, forehead) come with each Vyntus™ WALK because not all
+                                        patients are best-fit candidates for a finger probe</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">View real-time data
+                                        graphically over time, or switch to the <em>Easy-View</em> mode with large
+                                        numeric values for HR and SpO<sub>2</sub></li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Quality checks and built-in
+                                        guidance throughout testing helps ensure the credibility of your data</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">There is more to a 6MWT than
+                                        HR and SpO<sub>2</sub>, and Vyntus™ WALK lets you manually enter blood pressure,
+                                        oxygen supply, oxygen supply type, rate of perceived exertion and Bode index for
+                                        a more complete patient test</li>
+                                    <li data-gc-list-depth="1" data-gc-list-style="bullet">Vyntus™ WALK can be run as a
+                                        standalone device or the data can move in and out of SentrySuite™ software</li>
                                 </ul>
                                 </p>
                             </div>
