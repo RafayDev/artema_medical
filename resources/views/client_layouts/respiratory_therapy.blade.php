@@ -351,6 +351,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3" style="width: 16rem; margin-top:20px">
+                            <div class="card">
+                                <img src="{{asset('images/respiratory_images/infant/1.webp')}}" class="card-img-top">
+                                <div class="card-body" style="background-color:#671B1D;color: white;">
+                                    <h5 class="card-title">Infant Flow™ SiPAP</h5>
+                                    <p class="card-text"></p>
+                                    <a href="#" data-toggle="modal" data-target="#infant_modal"
+                                        style="margin-top: 120px;" class="learn-more-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1185,6 +1196,86 @@
                                     <li data-gc-list-depth="1" data-gc-list-style="bullet">Smart tools automate pre-test
                                         setup and provide timed cues &amp; guidance for events required during the test
                                         (e.g.: blood pressure, RPE signaling, exercise flow volume loops, etc.)</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <div class="modal fade bd-example-modal-xl" id="infant_modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Infant Flow™ SiPAP</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="carousel_infant" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/infant/4.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/infant/2.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="{{asset('images/respiratory_images/infant/3.webp')}}"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-secondary" type="button" data-target="#carousel_infant"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Previous</span> -->
+                                </button>
+                                <button class="btn btn-secondary float-right" type="button"
+                                    data-target="#carousel_infant" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <!-- <span class="visually-hidden">Next</span> -->
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Infant Flow™ SiPAP</h3>
+                                <p>For over two decades, the Infant Flow™ nCPAP system has delivered gentle respiratory
+                                    support to thousands of neonates worldwide. The system, combined with the patented
+                                    variable flow generator, provides NPPV by offering nasal CPAP and Biphasic
+                                    modalities. The system takes the work out of breathing, freeing precious calories to
+                                    be used for growth and development.
+                                </p>
+                                <h5>&nbsp;Features & Benefits</h5>
+                                <p>
+                                <ul class="d4c1">
+                                    <li>
+                                        <p class="title">Lowest work of breathing<sup>1</sup></p>
+                                    </li>
+                                    <li>
+                                        <p>Decrease the need for intubation by 78%<sup>2</sup></p>
+                                    </li>
+                                    <li>
+                                        <p>40% less days on respiratory support in patients treated with BiPhasic
+                                            mode<sup><span style="font-size: 12.5px;">3</span></sup></p>
+                                    </li>
+                                    <li>
+                                        <p>A 47% decrease in required oxygen compared to conventional nCPAP<sup>4</sup>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Compliant with U.S. National Patient Safety Goal (NPSG 06.01.01) for alarm
+                                            safety<sup>5</sup></p>
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
