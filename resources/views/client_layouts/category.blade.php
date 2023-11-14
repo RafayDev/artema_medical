@@ -184,7 +184,7 @@
                             <div class="row search-prod text-center ">
                                 <h1 class="col-md-12 alegreya  carrot-clr">Product Search</h1>
                                 <div class="col-md-12">
-                                    <form action="#" method="post" class="d-flex flex-row justify-content-center">
+                                    <form action="/search-product" method="post" class="d-flex flex-row justify-content-center">
                                         <input type="text" class="form-control search-control" required=""
                                             name="search_value" placeholder="Search">
                                         @csrf <button style="border: none;background: none;" type="submit"
